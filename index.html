@@ -126,30 +126,34 @@
     <!-- We design section -->
     <section>
       <div class="we-design-section bg-slate-200 pt-24">
-        <img class="absolute" src="./assets/Vector.png" alt="">
+        <img class="absolute hidden md:block" src="./assets/Vector.png" alt="">
         <!-- first section start -->
-        <div class="relative flex gap-10 first-sectin w-10/12 mx-auto py-6">
+        <div class="relative flex-cols  md:flex gap-10 first-sectin w-10/12 mx-auto py-6">
           <div class="flex-1">
-            <button class="flex rounded-full bg-white px-4 py-1">
+            <button class="flex items-center mx-auto md:mx-0 rounded-full bg-white px-4 py-1">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>            
               About Us</button>
-              <h2 class="font-bold text-5xl leading-tight py-1">We design thoughtful, liveable spaces</h2>
+              <h2 class="font-bold text-2xl md:text-5xl leading-tight py-1">We design thoughtful, liveable spaces</h2>
               <p class="text-base leading-tight py-2">The barn house captivates with its blend of rustic charm and 
-                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
                <div class="grid gap-4">
                  <!-- card-one -->
-                 <div class="card card-side bg-base-100">
-                  <img class="p-8" src="./assets/commercial.png" alt="">
+                 <div class="card w-11/12 card-side bg-base-100">
+                  <div class="w-28 h-28 mt-8 ml-4">
+                    <img class="" src="./assets/commercial.png" alt="">
+                  </div>
                    <div class="card-body">
                      <h2 class="card-title">Commercial</h2>
                      <p class="text-neutral-500">The barn house captivates with its blend of rustic charm and modern.</p>
                    </div>
                  </div>
                  <!-- card-two -->
-                 <div class="card card-side bg-base-100">
-                  <img class="p-8" src="./assets/residential.png" alt="">
+                 <div class="card w-11/12 card-side bg-base-100">
+                  <div class="w-28 h-28 mt-8 ml-4">
+                    <img src="./assets/residential.png" alt="">
+                  </div>
                    <div class="card-body">
                      <h2 class="card-title">Residential</h2>
                      <p class="text-neutral-500">The barn house captivates with its blend of rustic charm and modern.</p>
@@ -157,7 +161,7 @@
                  </div>
                </div>
           </div>
-          <div class="flex-1">
+          <div class="flex-1 mt-4">
             <img src="./assets/Rectangle.png" alt="">
           </div>
         </div>
@@ -229,9 +233,52 @@
             <h2 class="font-bold text-5xl leading-tight py-1">Our Latest Portfolio</h2>
             <p class="text-base leading-tight py-2">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
         </div>
-        <div>
-          <!-- grid area card section -->
-         
+        <div class="grid gap-4">
+        <!-- flex card section start -->
+         <div class="flex-cols gap-6 md:flex">
+          <div class="w-full md:w-4/6 border rounded-lg flex-cols md:flex gap-4 p-4">
+            <img src="./assets/img1.png" alt="">
+            <div class="grid items-center">
+              <h3 class="font-extrabold text-2xl">Commercial</h3>
+              <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              <button class="font-extrabold text-[20px] md:text-sm p-2 px-4 flex items-center gap-2 rounded-full sm:w-full md:w-auto sm:text-center
+            ">View Details
+              <span class="bg-primary rounded-full p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class=" size-6 md:size-4 items-center ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+              </span>
+            </button>
+            </div>
+          </div>
+          <div class="w-full md:w-2/6 border rounded-lg gap-4 p-4">
+            <img src="/assets/img2.png" alt="">
+          </div>
+         </div>
+         <div class=" flex-cols md:flex gap-4">
+          <div class=" w-full md:w-1/4 border rounded-lg p-4">
+            <img src="./assets/img3.png" alt="">
+          </div>
+          <div class="w-full md:w-2/4 flex-cols md:flex border rounded-lg gap-4 p-4">
+            <img src="./assets/img4.png" alt="">
+            <div class="grid items-center">
+              <h3 class="font-extrabold text-2xl">Commercial</h3>
+              <p class="text-[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+              <button class="font-extrabold text-[20px] md:text-sm p-2 px-4 flex items-center gap-2 rounded-full sm:w-full md:w-auto sm:text-center
+            ">View Details
+              <span class="bg-primary rounded-full p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class=" size-6 md:size-4 items-center ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+              </span>
+            </button>
+            </div>
+          </div>
+          <div class="w-full md:w-1/4 border rounded-lg p-4">
+            <img src="./assets/img5.png" alt="">
+          </div>
+         </div>
+
         </div>
       </div>
     </div>
